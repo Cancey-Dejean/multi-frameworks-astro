@@ -1,0 +1,16 @@
+---
+import Layout from "../layouts/Layout.astro";
+import CenteredVue from "../components/Vue/Centered.vue";
+import CenteredSvelte from "../components/Svelte/Centered.svelte";
+import CenteredReact from "../components/React/Centered";
+---
+
+<Layout title="Welcome to Astro.">
+  <main>
+    <CenteredReact title="React Component" />
+    <CenteredVue title="Vue Component" />
+    <CenteredSvelte title="Svelte Component" />
+  </main>
+</Layout>
+
+<style></style>
